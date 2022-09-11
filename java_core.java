@@ -63,6 +63,23 @@ public class java_core
 		
 		System.out.println(remainder+" is a remainder");
 		System.out.println(quotient+" is a quotient");
-		}
+		System.out.println( " " );
+	    System.out.println( " " );
+	    System.out.println("TO FIND THE FACTOR OF THE NUMBER ");
+	    Scanner N = new Scanner(System.in);
+	    System.out.println("Enter the number to find the factor: ");
+	    int f = N.nextInt();
+	    System.out.println("Factor of " + f + " are: ");
+	    for(int i=1;i<=f;++i)
+	    	{
+	    		if(f  %i == 0);
+	    		{
+	    			System.out.println(i + " ");
+	    		}
+	    		
+	    	}
+	    }
+	    
+      }
 	}
-}
+
