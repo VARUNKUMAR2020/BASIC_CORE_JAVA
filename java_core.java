@@ -92,7 +92,16 @@ public class java_core
 	    	int b=2;
 	    }
 	    System.out.println(Math.pow(2, p));
-		 
+	    System.out.println( " " );
+	    System.out.println( " " );
+	    Scanner v=new Scanner(System.in);
+		System.out.println("Enter An Alphabet ");
+		char letter=v.next().charAt(0);
+		if(letter=='a' || letter=='e' ||letter=='i' ||letter=='o' ||letter=='u' ) {
+			System.out.println(letter+" is a Vowel");
+		}
+		else
+			System.out.println(letter+" is a Consonent");
       }
 	}
 
