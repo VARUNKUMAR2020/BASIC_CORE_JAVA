@@ -1,4 +1,5 @@
 package Basic_Java.core;
+import java.util.*;
 public class java_core 
 {
     public static void main( String[] args )
@@ -27,5 +28,18 @@ public class java_core
 		double percentagetails=(T/10)*100;
 		System.out.println("heads percentage is "+percentageheads);
 		System.out.println("tails percentage is "+percentagetails);
-    }
+	    System.out.println( " " );
+	    System.out.println( " " );
+	    System.out.println( "TO CHECK LEAP YEAR OR NOT " );
+		Scanner Sc = new Scanner(System. in);
+		System. out. print("Enter the year you want to check: ");
+		int year = Sc. nextInt();
+		if (((year % 4 == 0) && (year % 100 != 0)) || (year % 400 == 0)) {
+			System.out.println(year+" is a leap year");
+		}
+		else 
+		{
+			System.out.println(year+" is not a leap year");
+        }
+	}
 }
