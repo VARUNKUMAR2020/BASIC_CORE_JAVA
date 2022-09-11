@@ -30,6 +30,8 @@ public class java_core
 		System.out.println("tails percentage is "+percentagetails);
 	    System.out.println( " " );
 	    System.out.println( " " );
+	    
+	    
 	    System.out.println( "TO CHECK LEAP YEAR OR NOT " );
 		Scanner Sc = new Scanner(System. in);
 		System. out. print("Enter the year you want to check: ");
@@ -41,5 +43,26 @@ public class java_core
 		{
 			System.out.println(year+" is not a leap year");
         }
+		System.out.println( " " );
+	    System.out.println( " " );
+	    
+	    System.out.println( "TO GET REMINDER AND QUOTIENT " );
+	    Scanner S = new Scanner(System. in);
+		System. out. print("Enter the divident number: ");
+		int dd = S. nextInt();
+		System. out. print("Enter the divisor number: ");
+		int di= S. nextInt();
+		if(di==0)
+		{
+			System.out.println("Enter valid number");
+		}
+		else 
+		{
+			int remainder= dd%di;
+			int quotient=dd/di;
+		
+		System.out.println(remainder+" is a remainder");
+		System.out.println(quotient+" is a quotient");
+		}
 	}
 }
