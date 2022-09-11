@@ -61,8 +61,10 @@ public class java_core
 			int remainder= dd%di;
 			int quotient=dd/di;
 		
+		
 		System.out.println(remainder+" is a remainder");
 		System.out.println(quotient+" is a quotient");
+		}
 		System.out.println( " " );
 	    System.out.println( " " );
 	    System.out.println("TO FIND THE FACTOR OF THE NUMBER ");
@@ -78,8 +80,19 @@ public class java_core
 	    		}
 	    		
 	    	}
+	    System.out.println( " " );
+	    System.out.println( " " );
+	    System.out.println("TO FIND POWER OF THE NUMBER ");
+	    Scanner P= new Scanner(System.in);
+	    System.out.println("Enter the number to find the power: ");
+	    int p = N.nextInt();
+	    System.out.println("Power of 2 of the number  " + p + " are: ");
+	    for(int a=0;a<=p;a++)
+	    {
+	    	int b=2;
 	    }
-	    
+	    System.out.println(Math.pow(2, p));
+		 
       }
 	}
 
